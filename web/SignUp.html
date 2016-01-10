@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="/ToppingUp/index.html">ToppingUp.com</a></li>
+                    <li><a href="/ToppingUp/AboutUs.html">About us</a></li>
+                    <li><a href="/ToppingUp/QuickTopUp.html">Quick Top Up</a></li>
+                    <li><a href="/ToppingUp/Login.html">Log In</a></li>
+                    <li class="active"><a href="/ToppingUp/SignUp.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <form action="/ToppingUp/SignUpServlet" method="post">
+        <!-- <form action="Singing Up" method="post"> !-->          
+            <div>Name: <input type="text" name="name" /></div>
+            
+            <div>Date of Birth: <input type="date" name="dateOfBirth" /></div>
+            
+            <div>Gender:
+                <select name="gender">
+                    <option value=""></option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </div>
+            
+            <div>Cell Phone:<input type="text" name="ddd" /> - <input type="text" name="number" /></div>
+            
+            <div>Provider:
+                <select name="provider">
+                    <option value=""></option>
+                    <option value="Claro">Claro</option>
+                    <option value="Oi">Oi</option>
+                    <option value="Tim">Tim</option>
+                    <option value="Vivo">Vivo</option>
+                </select>
+            </div>
+            
+            <div>E-mail <input type="text" name="email" /></div>
+            
+            <div>Password: <input type="text" name="password" /><br/></div>
+            <div>Confirm Password: <input type="text" name="passwordConfirmation" /><br/></div>
+            
+            <div><input type="submit" value="Confirm" /></div>
+        </form>
+    </body>
+</html>

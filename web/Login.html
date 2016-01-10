@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>LOGIN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="/ToppingUp/index.html">ToppingUp.com</a></li>
+                    <li><a href="/ToppingUp/AboutUs.html">About us</a></li>
+                    <li><a href="/ToppingUp/QuickTopUp.html">Quick Top Up</a></li>
+                    <li class="active"><a href="/ToppingUp/Login.html">Log In</a></li>
+                    <li><a href="/ToppingUp/SignUp.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <form action="/ToppingUp/LoginServlet" method="post">
+            
+            <div>E-mail: <input type="text" name="email" /></div>
+            <div>Password: <input type="text" name="password" /></div>
+            
+            <div><input type="submit" value="Log In" /></div>
+            <a href="/ToppingUp/ForgotLogin.html">Forgot?</a>
+            
+        </form>
+    </body>
+</html>
